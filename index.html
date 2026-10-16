@@ -1,58 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="style.css"
+<head>  
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Dorcas Ndunge -Portifolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" stylesheet"  href="style.css">
 </head>
 <body>
-<header>
-<nav>
-    <a href="#about">About  Me</a>
-<a href="#skills">Skills</a>
-<a href="#education">Education</a>
-<a href="projects">Projects</a>
-<a href="#contact">Contact Me</a>
-</nav>
-</header>
-
-<main>
-    <div style="text-align: center;padding:20px;">
-    <img src="Profile.jpeg" width="200"  style="border-radius:50%;">              
-    <h1>Dorcas Ndunge</h1>
-        <p>Software Engineer& Graphic Designer</p>
+        <h1 id="mainHeading">My Interactive Portfolio</h1>
+        <p id="intro">Welcome to my portfolio</p>
+        <button id="changeBtn">change heading</button>
+        <div class="card">
+            <h1>Say Hello</h1>
+            <lable form="Visitor">Enter name</lable>
+            <input id="visitorName" type="text">
+            <button id="greetBtn">Greet</button>
+            <p id="Message">Your greetings will appere here</p>
+        </div>
+        <div class="card">
+        <h2>Website Appearance</h2>
+        <button id="dimBtn">Toggle to dark mode</button>
     </div>
-
-    <h2 id="about">About Me</h2>
-
-    <p>My name is Dorcas Ndunge and I am passionate about becoming a skilled software engineer.
-    </p>I buit simple and beatiful websites using HTML, CSS and JavaScript. I am also skilled in Python programming language. I am a fast learner and I am always eager to learn new technologies and improve my skills. I am a team player and I enjoy working with others to achieve common goals. I am also a good communicator and I am able to explain complex concepts in a simple way. I am looking for an opportunity to work with a team of talented developers and contribute to the success of the company.
-
-
-<h2 id="skills">My skills</h2>
-<ul>
-    <li>JavaScript</li>
-    <li>Python</li>
-    <li>HTML/CSS</li>
-</ul>
-
-
-<h2 id="education">Education</h2>
-<ol>
-<li>I have a  certificate in  Software Engineering</p>
-<P>Mediacrest Training Institute</P>
-</li>Certificate in graphic design </li>
-<li>Makueni Intergrated Voccational Education  Center (MIVEC)</Center></li>
-</ol>
-
-<h2 id="contact">Contact Me</2>
-    
-    <p>Email:duge8385@gmail.com</p>
-    <p><Phone number:+247 76851922</P>
-        <p>WhatsApp: <a href="https://wa.me/254768519226"  target="-blank">0768519226</a></p>
-    </main>  
-    <footer>
-        <p>&copy; 2026 Dorcas Ndunge. All  rights reserved.</p>
-        </footer>
+    <div id="projects">
+        <h3>My Projects</h3>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portifolio built with HTML, CSS, and Javascript.It includes dark mode and interactive greetings.</p>
+            <p><strong>Tech:</strong>HTML, CSS & JavaScript.</p>
+                <button>"viewBtn"> View project</button>
+             <button id="deleteProjectBtn" >Delete</button>  
+                </div>
+                <footer>
+                    <p>&copy;2026 Dorcas Ndunge</p>
+                </footer>
+        <script src="script.js"></script>
 </body>
-</html> 
+</html>
