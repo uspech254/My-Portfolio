@@ -243,6 +243,12 @@ border- radius 5px;
 padding:16px;
 margin: top 18px;
 
+form{max-width: 600px; margin: 0 auto;}
+button { background: #b30000; color: white; border: none; padding: 10px 20px;}
+
+.contact-title {color: #b30000;} /* same red kama About Me */
+
+p{ max-width: 700px; margin: 0 auto; line-height: 1.6;}
 
 
 

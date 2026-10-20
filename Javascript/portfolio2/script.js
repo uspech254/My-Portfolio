@@ -7,7 +7,7 @@ if (changeBtn) {
   };
 }
 
-// Greet the visitor.
+// Greet  the visitors.
 const greetBtn = document.getElementById("greetBtn");
 if (greetBtn) {
   greetBtn.onclick = function() {
